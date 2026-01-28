@@ -1,0 +1,31 @@
+
+## 📖 简介
+
+**F2API** 是一个聚合AI网关，旨在简化大语言模型（LLM）的接入与管理。它作为一个统一的代理层，将 OpenAI、Anthropic (Claude)、Google (Gemini) 等全球主流 AI 供应商聚合到一个**完全兼容 OpenAI 协议**的接口中。
+
+无论您是构建企业内部 AI 中台，还是面向公众的 AI 服务，F2API 都能提供您所需的关键基础设施：智能负载均衡、计费系统、用户管理和安全防护。
+
+## ✨ 核心特性
+
+- **🚀 多模型聚合**: 通过一个 API Key 即可访问 OpenAI, Anthropic, Google, DeepSeek, Qwen 等全球主流大模型。
+- **🔌 兼容 OpenAI**: 完全兼容 OpenAI API 格式。可直接接入 NextChat, LobeChat, Cherry Studio 等现有应用，无需修改代码。
+- **⚖️ 高可用架构**: 内置智能负载均衡、失败自动重试、熔断机制，确保服务的高可用性和稳定性。
+- **💰 计费与配额**: 完善的积分扣费系统，精确到 Token 的用量统计。
+- **🛡️ 企业级安全**: 支持 API Key 管理（额度/过期时间）、IP 审计、请求日志记录，保障数据安全。
+- **📊 可视化面板**: 提供直观的仪表盘，实时监控请求量、消费金额、模型分布等关键指标。
+
+
+# 📖 Introduction
+
+**F2API** is an aggregated AI gateway designed to simplify the integration and management of Large Language Models (LLMs). Acting as a unified proxy layer, it aggregates major global AI providers like OpenAI, Anthropic (Claude), and Google (Gemini) into a single interface **fully compatible with the OpenAI protocol**.
+
+Whether you are building an internal enterprise AI platform or a public-facing AI service, F2API provides the critical infrastructure you need: intelligent load balancing, billing systems, user management, and security protection.
+
+## ✨ Core Features
+
+- **🚀 Multi-Model Aggregation**: Access major global large models like OpenAI, Anthropic, Google, DeepSeek, and Qwen with a single API Key.
+- **🔌 OpenAI Compatibility**: Fully compatible with the OpenAI API format. Directly integrate with existing applications like NextChat, LobeChat, and Cherry Studio without code modifications.
+- **⚖️ High Availability Architecture**: Built-in intelligent load balancing, automatic retry on failure, and circuit breaker mechanisms ensure high service availability and stability.
+- **💰 Billing & Quotas**: Comprehensive credit deduction system with precise token-level usage statistics.
+- **🛡️ Enterprise-Grade Security**: Supports API Key management (quotas/expiration), IP auditing, and request logging to ensure data security.
+- **📊 Visual Dashboard**: Provides an intuitive dashboard for real-time monitoring of key metrics such as request volume, consumption amount, and model distribution.
