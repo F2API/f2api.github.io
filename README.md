@@ -1,7 +1,10 @@
-
 ## 📖 简介
 
 **F2API** 是一个聚合AI网关，旨在简化大语言模型（LLM）的接入与管理。它作为一个统一的代理层，将 OpenAI、Anthropic (Claude)、Google (Gemini) 等全球主流 AI 供应商聚合到一个**完全兼容 OpenAI 协议**的接口中。
+
+🚀 **支持国内直接访问**，并完美兼容 **CherryStudio, NextChat, LobeChat, BotGem, OpenCat, Claude Code** 等大多数 AI 客户端。
+
+🌐 **官网地址**: [https://f2api.com](https://f2api.com)
 
 无论您是构建企业内部 AI 中台，还是面向公众的 AI 服务，F2API 都能提供您所需的关键基础设施：智能负载均衡、计费系统、用户管理和安全防护。
 
@@ -18,6 +21,10 @@
 # 📖 Introduction
 
 **F2API** is an aggregated AI gateway designed to simplify the integration and management of Large Language Models (LLMs). Acting as a unified proxy layer, it aggregates major global AI providers like OpenAI, Anthropic (Claude), and Google (Gemini) into a single interface **fully compatible with the OpenAI protocol**.
+
+🚀 **Supports direct access from China**, and is perfectly compatible with most AI clients such as **CherryStudio, NextChat, LobeChat, BotGem, OpenCat, Claude Code**, etc.
+
+🌐 **Official Website**: [https://f2api.com](https://f2api.com)
 
 Whether you are building an internal enterprise AI platform or a public-facing AI service, F2API provides the critical infrastructure you need: intelligent load balancing, billing systems, user management, and security protection.
 
