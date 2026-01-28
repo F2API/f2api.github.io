@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: F2API
+description: 🚀 一个完全兼容 OpenAI 协议的聚合 AI 网关，支持国内直连与多种 AI 客户端。
+show_downloads: false
