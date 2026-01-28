@@ -19,6 +19,38 @@
 - **📊 可视化面板**: 提供直观的仪表盘，实时监控请求量、消费金额、模型分布等关键指标。
 
 
+## 📚 常见问题指南
+
+### 🔑 常用模型 API Key 获取教程
+
+#### Gemini API Key 怎么获取
+前往 Google AI Studio (aistudio.google.com)，登录 Google 账号即可免费申请。注意：Google 服务通常需要特定网络环境。
+
+#### Claude API Key 如何申请
+访问 Anthropic Console (console.anthropic.com)，注册账号并绑定支持美元支付的信用卡（如 Visa/MasterCard）后即可创建 Key。
+
+#### OpenAI API Key 获取
+登录 OpenAI Platform (platform.openai.com)，在 API Keys 页面生成。OpenAI 账号注册及充值通常需要海外手机号和信用卡。
+
+#### DeepSeek API Key 哪里领
+访问 DeepSeek 开放平台 (platform.deepseek.com)，手机号注册即可获取 API Key。目前 DeepSeek 性价比极高，是开发者的热门选择。
+
+### 🛠️ 接口配置与使用指南
+
+#### OpenAI 接口转发/中转服务
+如果您在国内网络环境下无法直接连接 OpenAI，或者没有海外信用卡，可以使用 F2API 提供的接口转发服务。我们完全兼容 OpenAI 官方协议，只需将接口地址（Base URL）替换为 `https://api.f2api.com/v1` 即可。
+
+#### 国内如何使用 ChatGPT API
+由于网络限制，国内开发者直接调用 ChatGPT API 经常遇到连接超时或 IP 封禁问题。通过 F2API 聚合网关，您可以直接在国内网络环境下稳定调用 GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro 等前沿模型，无需配置复杂的代理网络。
+
+#### NextChat / LobeChat 接口地址怎么填
+在 NextChat (ChatGPT-Next-Web)、LobeChat、Cherry Studio 等开源客户端中，找到“自定义接口”或“OpenAI 设置”：
+- **接口地址 (Base URL)**: 填写 `https://api.f2api.com/v1`
+- **API Key**: 填写在 F2API 获取的 `sk-` 开头的密钥
+
+> 💡 **省心推荐**：官方渠道申请门槛较高且容易封号。使用 **F2API**，无需魔法、无需海外卡，一站式接入上述所有模型，稳定可靠！
+
+
 # 📖 Introduction
 🌐 **Official Website**: [https://f2api.com](https://f2api.com)
 
