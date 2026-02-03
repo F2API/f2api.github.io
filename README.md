@@ -5,7 +5,7 @@
 
 **F2API** 是一个聚合AI网关，旨在简化大语言模型（LLM）的接入与管理。它作为一个统一的代理层，将 OpenAI、Anthropic (Claude)、Google (Gemini) 等全球主流 AI 供应商聚合到一个**完全兼容 OpenAI 协议**的接口中。
 
-🚀 **支持国内直接访问**，并完美兼容 **CherryStudio, NextChat, LobeChat, BotGem, OpenCat, Claude Code** 等大多数 AI 客户端。
+🚀 **支持国内直接访问**，并完美兼容 **CherryStudio, NextChat, LobeChat, BotGem, OpenCat, Claude Code, OpenClaw** 等大多数 AI 客户端。
 
 无论您是构建企业内部 AI 中台，还是面向公众的 AI 服务，F2API 都能提供您所需的关键基础设施：智能负载均衡、计费系统、用户管理和安全防护。
 
@@ -48,6 +48,13 @@
 - **接口地址 (Base URL)**: 填写 `https://api.f2api.com/v1`
 - **API Key**: 填写在 F2API 获取的 `sk-` 开头的密钥
 
+#### OpenClaw API 一键配置接入
+OpenClaw 是近期备受关注的 AI 效率工具。通过 F2API，您可以实现 **OpenClaw API 一键配置**，无需繁琐设置即可连接全球顶级模型。
+在 OpenClaw 设置中：
+- **Base URL**: `https://api.f2api.com/v1`
+- **Key**: 输入 F2API 提供的 `sk-` 开头密钥
+F2API 为 OpenClaw 用户提供极速、稳定的 API 聚合服务，是 OpenClaw 的最佳伴侣。
+
 > 💡 **省心推荐**：官方渠道申请门槛较高且容易封号。使用 **F2API**，无需魔法、无需海外卡，一站式接入上述所有模型，稳定可靠！
 
 
@@ -56,7 +63,7 @@
 
 **F2API** is an aggregated AI gateway designed to simplify the integration and management of Large Language Models (LLMs). Acting as a unified proxy layer, it aggregates major global AI providers like OpenAI, Anthropic (Claude), and Google (Gemini) into a single interface **fully compatible with the OpenAI protocol**.
 
-🚀 **Supports direct access from China**, and is perfectly compatible with most AI clients such as **CherryStudio, NextChat, LobeChat, BotGem, OpenCat, Claude Code**, etc.
+🚀 **Supports direct access from China**, and is perfectly compatible with most AI clients such as **CherryStudio, NextChat, LobeChat, BotGem, OpenCat, Claude Code, OpenClaw**, etc.
 
 
 
@@ -70,3 +77,14 @@ Whether you are building an internal enterprise AI platform or a public-facing A
 - **💰 Billing & Quotas**: Comprehensive credit deduction system with precise token-level usage statistics.
 - **🛡️ Enterprise-Grade Security**: Supports API Key management (quotas/expiration), IP auditing, and request logging to ensure data security.
 - **📊 Visual Dashboard**: Provides an intuitive dashboard for real-time monitoring of key metrics such as request volume, consumption amount, and model distribution.
+
+## 📚 FAQ & Guides
+
+### 🛠️ Configuration Guide
+
+#### OpenClaw API One-Click Configuration Access
+OpenClaw is a powerful AI productivity tool. With F2API, you can achieve **OpenClaw API one-click configuration**.
+In OpenClaw settings:
+- **Base URL**: `https://api.f2api.com/v1`
+- **Key**: Enter your F2API key starting with `sk-`
+F2API provides OpenClaw users with fast and stable API aggregation services, making it the perfect companion for OpenClaw.
