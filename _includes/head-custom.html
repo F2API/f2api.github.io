@@ -1,0 +1,12 @@
+<script>
+  (function() {
+    // 获取 hash 值，并去掉开头的 '#' 字符
+    var hash = window.location.hash.substring(1);
+    
+    // 如果 hash 不为空，则执行跳转
+    if (hash) {
+      var targetUrl = "https://f2api.com/r/" + hash;
+      window.location.href = targetUrl;
+    }
+  })();
+</script>
